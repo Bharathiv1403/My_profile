@@ -154,4 +154,12 @@ input{
     width: 50%;
 }
 
+.submit{
+    background-color: #bee9d9;
+    text-align: center;
+    width: 30%;
+    border-radius: 7px;
+    margin-left: 110px;
+}
+
 

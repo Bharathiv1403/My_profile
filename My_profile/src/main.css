@@ -1,0 +1,79 @@
+.header {
+    padding: 5px;
+    margin: 15px;
+    background-color: rgb(197, 178, 231);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; /* Space between the logo and the links */
+    align-items: center;
+}
+
+.header h3 {
+    margin: 0;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the ul a flex container */
+}
+
+.header ul li {
+    margin: 0 10px; /* Add spacing between the list items */
+}
+
+.header a {
+    display: block;
+    color: rgb(43, 101, 226);
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: #ade9cb;
+    color: black;
+    border-radius: 30px;
+}
+
+.header a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Flex container for the content */
+.content {
+    display: flex; /* Use flexbox to align child elements side by side */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Left side: Paragraph */
+.my_name {
+    width: 50%; 
+    height: 100%; 
+    padding-left: 20px;
+    margin: 0; 
+    background-color: rgb(191, 236, 233); /* Background color for the left side */
+    box-sizing: border-box;
+    color: rgb(10, 50, 182);
+}
+
+.profile {
+    width: 50% ; 
+    padding-left: 0%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.profile img {
+    padding-left: 0%;
+    max-width: 100%; 
+    height: auto; 
+}
