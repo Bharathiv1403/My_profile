@@ -81,7 +81,7 @@ function App() {
         <div className="container mx-auto px-6 py-24">
           <div className="flex flex-col items-center text-center">
             <img
-              src="https://drive.google.com/uc?export=view&id=1VKpsPtI0BCkm4KcwjT7Kz2QA03O3l4Rb"
+              src="https://ibb.co/3yqWSZbp"
               alt="Profile"
               className="w-32 h-32 rounded-full border-4 border-white shadow-lg mb-6 hover:scale-105 transition-transform duration-300"
             />
